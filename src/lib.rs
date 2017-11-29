@@ -7,7 +7,7 @@ extern crate ordered_float;
 // API created by bindgen
 mod internal {
 	#![allow(dead_code)]
-	include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
+	include!("bindings.rs");
 }
 
 use ordered_float::OrderedFloat;
